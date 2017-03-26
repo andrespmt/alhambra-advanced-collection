@@ -1,0 +1,24 @@
+{
+  "name": "Alhambra-advanced-collection",
+  "version": "0.0.1",
+  "description": "Alhambra Advanced Collection",
+  "keywords": "advanced, collection",
+  "license": "GPL-2.0",
+  "authors" : [
+    {
+      "name": "Andrés Prieto-Moreno",
+      "url": "https://github.com/andrespmt"
+    },
+    
+  ],
+  "contributors": [
+    {
+      "name": "Juan González",
+      "url": "https://github.com/Obijuan"
+    },
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrespmt/alhambra-advanced-collection"
+  }
+}
