@@ -26,16 +26,16 @@
             "virtual": false
           },
           "position": {
-            "x": 512,
-            "y": 128
+            "x": 448,
+            "y": 104
           }
         },
         {
           "id": "1b69e223-5512-4285-aa68-31a3273945d6",
           "type": "7c0ae704fe4f7176c6e19f8639bc59e42c836297",
           "position": {
-            "x": 160,
-            "y": 176
+            "x": 112,
+            "y": 152
           },
           "size": {
             "width": 96,
@@ -43,11 +43,11 @@
           }
         },
         {
-          "id": "9955e853-533e-40d6-b16c-0e394d1e1547",
-          "type": "b60791ec50f95bbbaafeb166752f6320e22319a2",
+          "id": "b3a70d18-0977-421a-a492-de1a848b8307",
+          "type": "1f093341e9cc30e86eac4e41066c17a2939705fe",
           "position": {
-            "x": 320,
-            "y": 176
+            "x": 272,
+            "y": 152
           },
           "size": {
             "width": 96,
@@ -69,25 +69,15 @@
             "virtual": false
           },
           "position": {
-            "x": 512,
-            "y": 208
+            "x": 448,
+            "y": 184
           }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "1b69e223-5512-4285-aa68-31a3273945d6",
-            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
-          },
-          "target": {
-            "block": "9955e853-533e-40d6-b16c-0e394d1e1547",
-            "port": "cdb527ea-57cc-47a5-b546-fe90db6c59bf"
-          }
-        },
-        {
-          "source": {
-            "block": "9955e853-533e-40d6-b16c-0e394d1e1547",
+            "block": "b3a70d18-0977-421a-a492-de1a848b8307",
             "port": "212bd31c-6782-490f-bff6-094c2939b936"
           },
           "target": {
@@ -97,20 +87,30 @@
         },
         {
           "source": {
-            "block": "9955e853-533e-40d6-b16c-0e394d1e1547",
+            "block": "b3a70d18-0977-421a-a492-de1a848b8307",
             "port": "15b51a6d-0f0a-4ab6-bac3-822ce21c543b"
           },
           "target": {
             "block": "9554f5bc-2733-43b2-a7a6-cc350d5c40ef",
             "port": "in"
           }
+        },
+        {
+          "source": {
+            "block": "1b69e223-5512-4285-aa68-31a3273945d6",
+            "port": "7e07d449-6475-4839-b43e-8aead8be2aac"
+          },
+          "target": {
+            "block": "b3a70d18-0977-421a-a492-de1a848b8307",
+            "port": "cdb527ea-57cc-47a5-b546-fe90db6c59bf"
+          }
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 0,
-        "y": 0
+        "x": 90,
+        "y": 63.5
       },
       "zoom": 1
     }
@@ -211,13 +211,13 @@
         }
       }
     },
-    "b60791ec50f95bbbaafeb166752f6320e22319a2": {
+    "1f093341e9cc30e86eac4e41066c17a2939705fe": {
       "package": {
         "name": "Counter-2-bits",
         "version": "0.0.1",
         "description": "A 2-bits up binary counter",
         "author": "Juan Gonzalez-Gomez (obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22130.571%22%20height=%2294.471%22%20viewBox=%220%200%20122.41036%2088.566738%22%3E%3Cdefs%3E%3Cmarker%20orient=%22auto%22%20id=%22a%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4l3.46%202z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3C/defs%3E%3Cg%20transform=%22translate(-271.99%20-305.576)%22%3E%3Crect%20width=%2239.464%22%20height=%2263.929%22%20x=%22272.991%22%20y=%22329.036%22%20ry=%223.75%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M285.848%20353.322l5.714-3.215-.179%2029.668h7.322v-37.546l-6.786.021-9.286%205.714z%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Crect%20width=%2239.464%22%20height=%2263.929%22%20x=%22316.099%22%20y=%22329.214%22%20ry=%223.75%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22338.502%22%20y=%22359.153%22%20transform=%22scale(.94516%201.05802)%22%20font-weight=%22400%22%20font-size=%2247.638%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%222%22%3E%3Ctspan%20x=%22338.502%22%20y=%22359.153%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%3E0%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M274.176%20362.607h37.094M317.597%20362.607h37.093%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22round%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22283.067%22%20y=%22320.42%22%20font-weight=%22400%22%20font-size=%2220%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22283.067%22%20y=%22320.42%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%3ECounter%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M379.801%20388.612v-45.219%22%20fill=%22#00f%22%20stroke=%22#00f%22%20stroke-width=%226%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-end=%22url(#a)%22/%3E%3C/g%3E%3C/svg%3E"
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22129.922%22%20height=%2293.932%22%20viewBox=%220%200%20121.80204%2088.061668%22%3E%3Cdefs%3E%3Cmarker%20orient=%22auto%22%20id=%22a%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4l3.46%202z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3C/defs%3E%3Cg%20transform=%22translate(-272.599%20-306.081)%22%3E%3Crect%20width=%2239.464%22%20height=%2263.929%22%20x=%22318.242%22%20y=%22329.214%22%20ry=%223.75%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22340.77%22%20y=%22359.153%22%20transform=%22scale(.94516%201.05802)%22%20font-weight=%22400%22%20font-size=%2247.638%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%222%22%3E%3Ctspan%20x=%22340.77%22%20y=%22359.153%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%3E0%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M319.74%20362.607h37.093%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22round%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22283.067%22%20y=%22321.639%22%20font-weight=%22400%22%20font-size=%2220%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%22283.067%22%20y=%22321.639%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%3ECounter%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M379.801%20388.612v-45.219%22%20fill=%22#00f%22%20stroke=%22#00f%22%20stroke-width=%226%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-end=%22url(#a)%22/%3E%3Crect%20width=%2239.464%22%20height=%2263.929%22%20x=%22273.599%22%20y=%22329.214%22%20ry=%223.75%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%222%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22293.536%22%20y=%22359.153%22%20transform=%22scale(.94516%201.05802)%22%20font-weight=%22400%22%20font-size=%2247.638%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%222%22%3E%3Ctspan%20x=%22293.536%22%20y=%22359.153%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%3E0%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M275.097%20362.607h37.093%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22round%22/%3E%3C/g%3E%3C/svg%3E"
       },
       "design": {
         "graph": {
@@ -354,8 +354,8 @@
         },
         "state": {
           "pan": {
-            "x": -96,
-            "y": -73
+            "x": -86,
+            "y": -44.5
           },
           "zoom": 1
         }
